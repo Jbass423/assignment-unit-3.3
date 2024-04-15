@@ -80,12 +80,42 @@ console.log("for loop to seperate out numbers" );
 // 7. Rewrite the 'for' loop from #6 as a 'for...of' loop. Instead of 'positives',
 //    'negatives', and 'zeroes', create three new arrays named 'stretchPositives',
 //    'stretchNegatives', and 'stretchZeroes'. 
+
+stretchZeroes = []
+stretchNegatives = []
+stretchPositives = []
+
+for (  index of supplyChanges ) { 
+  if ( index[supplyChanges] = 0 ) { stretchZeroes.push(value);
+  } else if (index[supplyChanges] < 0) { stretchPositives.push(value)
+  } else
+   {stretchNegatives.push
+  }
+
+    
+  };
+
+  console.log(stretchNegatives,stretchPositives,stretchZeroes);
+  
+
+
+
+
 console.log('7. Looping through supplyChanges to populate more arrays with positive, negative, and zero values:');
 
 
 // 8. Create a variable called 'totalParts' and assign it a value of 0.
 //    Then, write a loop that adds each value of the 'supplyChanges'
 //    array to the 'totalParts' variable.
+
+  
+
+
+
+  
+
+
+
 console.log('8. Looping through supplyChanges to calculate the sum:');
 
 
